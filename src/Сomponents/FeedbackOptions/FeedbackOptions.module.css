@@ -1,0 +1,21 @@
+.btn {
+  font-weight: 700;
+  color: rgba(218, 217, 206, 0.89);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgb(64, 199, 129);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: rgb(53, 167, 68);
+}
+
+.btn:active {
+  background: rgb(33, 73, 147);
+}
+
+.btn:nth-child(2n) {
+  margin: 0 5px;
+}

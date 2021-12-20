@@ -1,11 +1,12 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
 function Section({ title, children }) {
   return (
-    <Section>
+    <section>
       <h2>{title}</h2>
       {children}
-    </Section>
+    </section>
   );
 }
 
